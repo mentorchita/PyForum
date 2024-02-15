@@ -220,10 +220,10 @@ You will see the following view after running the program using the specified pa
 ![main page](.github/main_page.png)
 
 When you try to log in, the following screen will appear:
-![login screen](https://github.com/mentorchita/PyForum/blob/main/.github/login_page.png)
+![login screen](.github/login_page.png)
 
 After logging in, the following screen will appear:
-![logging](https://github.com/mentorchita/PyForum/blob/main/.github/logged_page.png)
+![logging](.github/logged_page.png)
 
 ## Documentation
 - 🔃 Documentation <a href="https://github.com/ita-social-projects/Forum-Sandbox/wiki" target="_blank">Forum-Sandbox/wiki</a>.
