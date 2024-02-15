@@ -217,7 +217,7 @@ $ python manage.py test
 ### How to Check
 
 You will see the following view after running the program using the specified path on port 8000:
-![main page](https://github.com/mentorchita/PyForum/blob/main/.github/main_page.png)
+![main page](.github/main_page.png)
 
 When you try to log in, the following screen will appear:
 ![login screen](https://github.com/mentorchita/PyForum/blob/main/.github/login_page.png)
