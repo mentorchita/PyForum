@@ -1,4 +1,4 @@
-<a href="https://softserve.academy/"><img src="https://s.057.ua/section/newsInternalIcon/upload/images/news/icon/000/050/792/vnutr_5ce4f980ef15f.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
+<a href="https://softserve.academy/"><img src=".github/logo.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
@@ -37,24 +37,30 @@
 
 > If your `README` has a lot of info, section headers might be nice.
 
-- [Installation](#installation)
-  - [Required to install](#Required-to-install)
-  - [Environment](#Environment)
-  - [Clone](#Clone)
-  - [Setup](#Setup)
-  - [How to run local](#How-to-run-local)
-  - [How to run Docker](#How-to-run-Docker)
-- [Usage](#Usage)
-  - [How to work with swagger UI](#How-to-work-with-swagger-UI)
-  - [How to run tests](#How-to-run-tests)
-  - [How to Checkstyle](#How-to-Checkstyle)
-- [Documentation](#Documentation))
-- [Contributing](#contributing)
-  - [git flow](#git-flow)
-  - [issue flow](#git-flow)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
+- [Repository Title Goes Here](#repository-title-goes-here)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Installation](#installation)
+    - [Required to install](#required-to-install)
+    - [Environment](#environment)
+    - [Clone](#clone)
+    - [Setup](#setup)
+    - [How to run local](#how-to-run-local)
+    - [How to run Docker](#how-to-run-docker)
+  - [Usage](#usage)
+    - [How to work with swagger UI](#how-to-work-with-swagger-ui)
+    - [How to run tests](#how-to-run-tests)
+    - [How to Check](#how-to-check)
+  - [Documentation](#documentation)
+  - [Contributing](#contributing)
+    - [Git flow](#git-flow)
+      - [Step 1](#step-1)
+      - [Step 2](#step-2)
+      - [Step 3](#step-3)
+    - [Issue flow](#issue-flow)
+  - [Team](#team)
+  - [FAQ](#faq)
+  - [Support](#support)
+  - [License](#license)
 
 ---
 
