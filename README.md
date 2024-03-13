@@ -129,6 +129,15 @@ $ sudo apt install npm
 ```
 
 - For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
+110
+
+In your settings.py, there is a list called ALLOWED_HOSTS. You need to add the IP address you see in the error to that list:
+ALLOWED_HOSTS = ['XX.XX.XX.XX']
+Note: only add the IP address, and not the port (e.g., 127.0.0.1 and not 127.0.0.1:8000)
+For development, you can use the * wildcard to allow all hosts in settings.py:
+ALLOWED_HOSTS = ['*']
+Important
+Modify this configuration when you deploy your app in production environment.
 
 ### How to run local
 - Setup .env
