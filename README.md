@@ -1,4 +1,4 @@
-<a href="https://softserve.academy/"><img src="https://s.057.ua/section/newsInternalIcon/upload/images/news/icon/000/050/792/vnutr_5ce4f980ef15f.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
+<a href="https://softserve.academy/"><img src=".github/logo.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
@@ -37,24 +37,30 @@
 
 > If your `README` has a lot of info, section headers might be nice.
 
-- [Installation](#installation)
-  - [Required to install](#Required-to-install)
-  - [Environment](#Environment)
-  - [Clone](#Clone)
-  - [Setup](#Setup)
-  - [How to run local](#How-to-run-local)
-  - [How to run Docker](#How-to-run-Docker)
-- [Usage](#Usage)
-  - [How to work with swagger UI](#How-to-work-with-swagger-UI)
-  - [How to run tests](#How-to-run-tests)
-  - [How to Checkstyle](#How-to-Checkstyle)
-- [Documentation](#Documentation))
-- [Contributing](#contributing)
-  - [git flow](#git-flow)
-  - [issue flow](#git-flow)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
+- [Repository Title Goes Here](#repository-title-goes-here)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Installation](#installation)
+    - [Required to install](#required-to-install)
+    - [Environment](#environment)
+    - [Clone](#clone)
+    - [Setup](#setup)
+    - [How to run local](#how-to-run-local)
+    - [How to run Docker](#how-to-run-docker)
+  - [Usage](#usage)
+    - [How to work with swagger UI](#how-to-work-with-swagger-ui)
+    - [How to run tests](#how-to-run-tests)
+    - [How to Check](#how-to-check)
+  - [Documentation](#documentation)
+  - [Contributing](#contributing)
+    - [Git flow](#git-flow)
+      - [Step 1](#step-1)
+      - [Step 2](#step-2)
+      - [Step 3](#step-3)
+    - [Issue flow](#issue-flow)
+  - [Team](#team)
+  - [FAQ](#faq)
+  - [Support](#support)
+  - [License](#license)
 
 ---
 
@@ -64,8 +70,8 @@
 - Images of what it should look like
 
 ### Required to install
-* Python 3.9
-* PostgreSQL 14
+* Python 3.9 or later
+* PostgreSQL 14 or later
 * Django 4.2.3
 * NodeJS Frontend
 
@@ -123,6 +129,15 @@ $ sudo apt install npm
 ```
 
 - For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
+110
+
+In your settings.py, there is a list called ALLOWED_HOSTS. You need to add the IP address you see in the error to that list:
+ALLOWED_HOSTS = ['XX.XX.XX.XX']
+Note: only add the IP address, and not the port (e.g., 127.0.0.1 and not 127.0.0.1:8000)
+For development, you can use the * wildcard to allow all hosts in settings.py:
+ALLOWED_HOSTS = ['*']
+Important
+Modify this configuration when you deploy your app in production environment.
 
 ### How to run local
 - Setup .env
@@ -214,9 +229,16 @@ $ docker stop $(docker ps -q)
 $ python manage.py test
 ```
 
-### How to Checkstyle
+### How to Check
 
----
+You will see the following view after running the program using the specified path on port 8000:
+![main page](.github/main_page.png)
+
+When you try to log in, the following screen will appear:
+![login screen](.github/login_page.png)
+
+After logging in, the following screen will appear:
+![logging](.github/logged_page.png)
 
 ## Documentation
 - 🔃 Documentation <a href="https://github.com/ita-social-projects/Forum-Sandbox/wiki" target="_blank">Forum-Sandbox/wiki</a>.
@@ -286,4 +308,4 @@ Reach out to me at one of the following places!
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2020 © <a href="https://softserve.academy/" target="_blank"> SoftServe IT Academy</a>.
+- Copyright 2020 © <a href="https://softserve.academy/" target="_blank"> SoftServe | Academy</a>.
