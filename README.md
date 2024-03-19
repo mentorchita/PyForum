@@ -23,10 +23,7 @@
 - license
 - etc.
 
-[![Build Status](https://img.shields.io/travis/ita-social-projects/Forum-Sandbox/master?style=flat-square)](https://travis-ci.org/github/ita-social-projects/Forum-Sandbox)
-[![Coverage Status](https://img.shields.io/gitlab/coverage/ita-social-projects/Forum-Sandbox/master?style=flat-square)](https://coveralls.io)
-[![Github Issues](https://img.shields.io/github/issues/ita-social-projects/Forum-Sandbox?style=flat-square)](https://github.com/ita-social-projects/Forum-Sandbox/issues)
-[![Pending Pull-Requests](https://img.shields.io/github/issues-pr/ita-social-projects/Forum-Sandbox?style=flat-square)](https://github.com/ita-social-projects/Forum-Sandbox/pulls)
+[![Pending Pull-Requests](https://img.shields.io/github/issues-pr/ita-social-projects/Forum-Sandbox?style=flat-square)](https://github.com/mentorchita/PyForum/pulls)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - For more on these wonderful  badges, refer to <a href="#" target="_blank">#</a>.
@@ -57,8 +54,7 @@
       - [Step 2](#step-2)
       - [Step 3](#step-3)
     - [Issue flow](#issue-flow)
-  - [Team](#team)
-  - [FAQ](#faq)
+   - [FAQ](#faq)
   - [Support](#support)
   - [License](#license)
 
@@ -106,7 +102,7 @@ CORS_ORIGIN_WHITELIST=
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/ita-social-projects/Forum-Sandbox.git`
+- Clone this repo to your local machine using `https://github.com/mentorchita/PyForum.git`
 
 ### Setup
 
@@ -127,9 +123,6 @@ $ sudo apt install nodejs
 $ sudo apt install npm
 
 ```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
-110
 
 In your settings.py, there is a list called ALLOWED_HOSTS. You need to add the IP address you see in the error to that list:
 ALLOWED_HOSTS = ['XX.XX.XX.XX']
@@ -243,7 +236,7 @@ After logging in, the following screen will appear:
 Default user admin@admin.com  password: Password_1
 
 ## Documentation
-- 🔃 Documentation <a href="https://github.com/ita-social-projects/Forum-Sandbox/wiki" target="_blank">Forum-Sandbox/wiki</a>.
+- 🔃 Documentation <a href="https://github.com/mentorchita/PyForum/wiki" target="_blank">Forum-Sandbox/wiki</a>.
 
 ---
 
@@ -257,7 +250,7 @@ Default user admin@admin.com  password: Password_1
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/ita-social-projects/Forum-Sandbox.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/mentorchita/PyForum.git`
 
 #### Step 2
 
@@ -265,26 +258,9 @@ Default user admin@admin.com  password: Password_1
 
 #### Step 3
 
-- 🔃 Create a new pull request using <a href="#" target="_blank">https://github.com/ita-social-projects/Forum-Sandbox.git</a>.
+- 🔃 Create a new pull request using <a href="#" target="_blank">https://github.com/mentorchita/PyForum.git</a>.
 
 ### Issue flow
-
----
-
-## Team
-
-> Or Contributors/People
-
-[![@romanmyko](https://avatars.githubusercontent.com/u/123646984?v=4?s=50)](https://github.com/romanmyko)
-[![@ohorodnykostap](https://avatars.githubusercontent.com/u/95187662?v=4?s=200)](https://github.com/ohorodnykostap)
-[![@do-androids-dream](https://avatars.githubusercontent.com/u/116935261?v=4?s=200)](https://github.com/do-androids-dream)
-[![@Anorhayz](https://avatars.githubusercontent.com/u/70011041?v=4?s=200)](https://github.com/Anorhayz)
-[![@GodaimeSan22](https://avatars.githubusercontent.com/u/125042739?v=4?s=200)](https://github.com/GodaimeSan22)
-[![@pythonStudent88](https://avatars.githubusercontent.com/u/125041382?v=4?s=200)](https://github.com/pythonStudent88)
- 
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
 
 ---
 
