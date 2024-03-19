@@ -240,6 +240,8 @@ When you try to log in, the following screen will appear:
 After logging in, the following screen will appear:
 ![logging](.github/logged_page.png)
 
+Default user admin@admin.com  password: Password_1
+
 ## Documentation
 - 🔃 Documentation <a href="https://github.com/ita-social-projects/Forum-Sandbox/wiki" target="_blank">Forum-Sandbox/wiki</a>.
 

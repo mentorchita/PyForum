@@ -634,6 +634,7 @@ COPY public.auth_permission (id, name, content_type_id, codename) FROM stdin;
 --
 
 COPY public.authentication_customuser (id, password, last_login, email, name, surname, is_active, is_staff, is_superuser) FROM stdin;
+1	pbkdf2_sha256$600000$9GCDfbIZzoStHFknVhMmK5$uWxOdcroEukDhrCAvkLKOxsOtSQSvUqQpTBK+2OA11o=	2024-03-14 00:46:04.247534+00	admin@admin.com			t	t	t
 2	password1	2023-11-30 14:04:51.640184+02	user1@example.com	Alice	Johnson	t	f	f
 3	password2	2023-11-30 14:04:51.640184+02	user2@example.com	Bob	Smith	t	f	f
 4	password3	2023-11-30 14:04:51.640184+02	user3@example.com	Charlie	Williams	t	f	f
@@ -656,7 +657,7 @@ COPY public.authentication_customuser (id, password, last_login, email, name, su
 21	password20	2023-11-30 14:04:51.640184+02	user20@example.com	Tina	Parker	t	f	f
 22	pbkdf2_sha256$600000$9okjOHbjCrJFCt1gPtyFOa$TRbwAa5gKUlT0j0eH6gl4QoZ7YOMN6LTHc4PgowDo10=	2023-12-05 21:24:52.191002+02	test2@test.ua			t	t	t
 23	pbkdf2_sha256$600000$JIzzuKSuHGRjJn33fIkc5X$Nvdjl9WtpaJ83IR7dkmf/wyUL4hoKEr8a09KMcRgWn4=	2023-12-06 22:55:08.845352+02	test1@test.ua			t	t	t
-1	pbkdf2_sha256$600000$3m4fN6vrPlPQaoFvgHA8lU$VFuTvK7R4viqfZ5JGIcxERaGdEUbmnAh5cVdKEuwcJs=	2023-12-07 09:55:43.353977+02	test@test.ua			t	t	t
+24	pbkdf2_sha256$600000$3m4fN6vrPlPQaoFvgHA8lU$VFuTvK7R4viqfZ5JGIcxERaGdEUbmnAh5cVdKEuwcJs=	2023-12-07 09:55:43.353977+02	test@test.ua			t	t	t
 \.
 
 

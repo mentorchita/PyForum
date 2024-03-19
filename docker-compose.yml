@@ -3,8 +3,6 @@ version: '3.9'
 services:
   web:
     build: .
-#    command: python3 manage.py makemigration  
-#    command: python3 manage.py migrate
     command: gunicorn forum-sandbox.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - ./:/forum-sandbox
@@ -20,28 +18,13 @@ services:
     restart: always
     volumes:
       - ./db_data:/var/lib/postgresql/data
-      # - ./dump_forum.sql:/docker-entrypoint-initdb.d/dump_forum.sql
+      - ./forum_d.sql:/docker-entrypoint-initdb.d/forum_d.sql
     environment:
       POSTGRES_USER: ${PG_USER}
       POSTGRES_PASSWORD: ${PG_PASSWORD}
       POSTGRES_DB: ${PG_DB}
-      # POSTGRES_INITDB_ARGS: "--username=${PG_USER}" 
-      #PGDATABASE: ${PG_DB}
-     # PGPASSWORD: ${PG_PASSWORD}
-      #PGUSER: ${PG_USER}
     ports:
       - ${DB_PORT_OUT}:5432
-  pgadmin4:
-    container_name: forum-sandbox_pgadmin4
-    image: dpage/pgadmin4
-    restart: always
-    environment:
-      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
-      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
-    ports:
-      - "5050:80"
-    volumes:
-      - ./pgadmin-data:/var/lib/pgadmin/data
 volumes:
   db_data:
   pgadmin-data:
